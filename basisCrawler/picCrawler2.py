@@ -9,12 +9,6 @@ def crawler(url,page):
     html1 = urllib.request.urlopen(url).read()
     # 将读取到的byte数据转换为字符串
     html1=str(html1)
-    # print(html1)
-    # s = data.find('''flip.setData(\'imgData\', {    \"queryEnc\":\"iu%E5%9B%BE%E7%89%87\", ''')
-    # print(s)
-    # file = open('t.html','w')
-    # file.write(data)
-    # file.close()
     pat1 = r'''\'imgData\\\', {    "queryEnc":"iu%E5%9B%BE%E7%89%87",    .*?\}\,\{\}\]\}\);'''
     # data = re.search(pat1,html1)
     data = re.compile(pat1).findall(html1)
