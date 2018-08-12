@@ -6,9 +6,9 @@
 ``  s = ("fanyideskweb" + formdata['i'] + formdata['salt'] + "ebSeFb%=XZ%T[KZ)c(sy!").encode('utf-8')
     h.update(s)
     formdata['sign'] = h.hexdigest()``
-- cookie数据___rl__test__cookies:当前时间的毫秒数
+- cookie数据___rl__test__cookies:当前时间的毫秒数\
 `___rl__test__cookies':'%s'%str(int(time.time()*1000))}`
 - 其他数据均通过浏览器直接获得
 
-运行结果：
-
+####运行结果:
+![运行结果](./运行结果.png "运行结果")
