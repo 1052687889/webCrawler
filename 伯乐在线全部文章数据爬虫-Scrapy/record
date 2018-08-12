@@ -1,0 +1,66 @@
+1、使用清华镜像源安装scrapy
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ scrapy
+
+2、使用scrapy startproject ArticleSpider创建一个scrapy项目
+
+3、在工程目录中运行scrapy genspider jobbole blog.com
+命令，创建一个爬虫
+
+4、创建main.py用于调试
+
+5、设置setting.py中的ROBOTSTXT_OBEY = False
+
+
+xpath 使用路径表达式在xml和html中进行导航
+xpath包含标准函数库
+xpath是一个w3c的标准库
+
+scrapy shell <url>
+
+css 选择器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
