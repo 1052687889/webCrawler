@@ -1,1 +1,3 @@
-- 爬取伯乐在线的全部技术文章，通过Scrapy.JsonItemExporter保存
+- 爬取伯乐在线的全部技术文章，通过Scrapy.JsonItemExporter保存。
+- 爬取每篇文章的图片并保存至images目录。
+- 运行方式:运行main.py即可。
