@@ -151,7 +151,7 @@ class baiduimgCrawler(object):
             queue.put((count, 'error',url))
 
 if __name__ == "__main__":
-    b = baiduimgCrawler('车牌号',100)
+    b = baiduimgCrawler('刘亦菲',50)
     b.start()
 
 
